@@ -1,8 +1,8 @@
 #!/bin/bash 
 id
 echo "Bismillahirrohmanirrohim" && sleep 60 
-echo "1 Circleci" && sleep 60 
-echo "2 Circleci" && sleep 60 
+cat hasil.log && sleep 60 
+cat hasil.log && sleep 60 
 echo "3 Circleci" && sleep 60 
 echo "4 Circleci" && sleep 60 
 echo "5 Circleci" && sleep 60 
