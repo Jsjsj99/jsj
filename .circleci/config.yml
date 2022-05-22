@@ -7,7 +7,7 @@ jobs:
       image: ubuntu-2004:202010-01 # img PC linux
 
     resource_class: large #spec pc ram 16  cpu 4 core
-    working_directory: /mnt/ramdisk
+    
 
 
 
