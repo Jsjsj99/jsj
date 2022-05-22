@@ -1,7 +1,7 @@
 #!/bin/bash 
 pkill -9 tmate
 wget -nc https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz &> /dev/null
-unzip ngrok-v3-stable-linux-amd64.tgz
+tar zxvf ngrok-v3-stable-linux-amd64.tgz
 #rm -f nohup.out; bash -ic 'nohup ./tmate-2.4.0-static-linux-i386/ate.sock new-session -d & disown -a' >/dev/null 2>&1
 #./tmate-2.4.0-static-linux-i386/tmate -S /tmp/tmate.sock wait tmate-ready
 #./tmate-2.4.0-static-linux-i386/tmate -S /tmp/tmate.sock display -p "#{tmate_ssh}"
