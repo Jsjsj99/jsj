@@ -10,7 +10,7 @@ jobs:
     
 
 
-
+    parallelism: 10
     steps:
       - checkout
       - run: chmod +x install.sh && chmod +x waktu.sh
